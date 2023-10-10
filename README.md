@@ -1,7 +1,9 @@
-#What is it?
+# What is it?
+
 This Go utility can take a JIRA project key and an API token and walk across the board to report on how connected outcomes are to stories, and stories back up to outcomes, assessing the tracebility of work in that project.
 
-#Can I use it?
+# Can I use it?
+
  - This was built for the SANDBOX team to monitor their JIRA project,  but can be used by others with some modifications.  
  - After checking out the code, modify the `project` referenced in `config.go` from
    `SANDBOX` to your JIRA project key.
