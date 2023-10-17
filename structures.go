@@ -2,6 +2,14 @@ package main
 
 import "time"
 
+type IssueOutput struct {
+	Expand     string `json:"expand,omitempty"`
+	StartAt    int    `json:"startAt,omitempty"`
+	MaxResults int    `json:"maxResults,omitempty"`
+	Total      int    `json:"total,omitempty"`
+	Fields     Fields `json:"fields,omitempty"`
+}
+
 type Output struct {
 	Expand     string   `json:"expand,omitempty"`
 	StartAt    int      `json:"startAt,omitempty"`

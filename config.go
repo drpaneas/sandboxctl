@@ -6,8 +6,8 @@ import (
 )
 
 // Set the default query parameters
-const (
-	project    = "SANDBOX"
+var (
+	projects   = []string{"SVPI", "SANDBOX", "ASC", "APPSVC", "PLNSRVCE", "SRVKP", "TKNECO", "GITOPSRVCE", "GITOPS", "GITOPSVCCR", "DEVHAS", "RHIDP"}
 	maxResults = "1000"
 	startAt    = "0"
 )
